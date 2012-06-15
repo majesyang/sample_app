@@ -91,6 +91,7 @@ PLATFORMS
 DEPENDENCIES
   pg
   rails (= 3.0.7)
+  rspec (= 2.0.1)
   rspec-rails (>= 2.0.0.beta)
   sqlite3
   webrat (= 0.7.1)

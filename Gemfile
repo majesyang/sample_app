@@ -10,11 +10,12 @@ group :production, :staging do
 end
 
 group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
   gem "sqlite3", :require => "sqlite3"
 end
 
 group :test do
-  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'rspec', '2.0.1'
   gem 'webrat','0.7.1'
 end
 
