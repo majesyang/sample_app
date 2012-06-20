@@ -1,9 +1,5 @@
-<html>
-<head>
-<title>Ruby on Rails Tutorial Sample APP | <%= @title%></title>
-</head>
-<body>
-<h1>Sample App</h1>
+<h1>欢迎光临我的weibo</h1>
 <p>this is the home page</p>
-</body>
-<html>
+
+<%= link_tp "Sign up now!", '#', :class => "signup_button round" %>
+
